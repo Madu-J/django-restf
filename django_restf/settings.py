@@ -146,7 +146,6 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-        'USER': 'postgres',
     }
 }
 if 'DEV' in os.environ:
@@ -154,7 +153,6 @@ if 'DEV' in os.environ:
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': BASE_DIR / 'db.sqlite3',
-            'USER': 'postgres',
         }
     }
 else:
