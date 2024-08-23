@@ -64,7 +64,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-maduj-djangorestf-0ww39sbj94k.ws-eu110.gitpod.io', 
-    'localhost', 'django-restf-79ed4265cb44.herokuapp.com'
+    'localhost', 'django-restf-79ed4265cb44.herokuapp.com',
+    '8000-maduj-djangorestf-n2r8shfe02o.ws.codeinstitute-ide.net'
     ]
 
 
@@ -106,7 +107,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
-    'allauth.account.middleware.AccountMiddleware',
 ]
 
 if 'CLIENT_ORIGIN' in os.environ:
